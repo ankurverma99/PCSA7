@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[admin   manager]]>
+    </line>
+    <line>
+      <![CDATA[manager   admin]]>
+    </line>
+    <line>
+      <![CDATA[ankur   verma]]>
+    </line>
+    <line>
+      <![CDATA[alia   ranbir]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53824" started-at="2022-02-09T11:05:30Z" finished-at="2022-02-09T11:06:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53824" started-at="2022-02-09T11:05:30Z" finished-at="2022-02-09T11:06:24Z">
+      <class name="demoTestng.Dempp">
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:demoTestng.Dempp@20e2cbe0]" name="tc" duration-ms="16398" started-at="2022-02-09T16:35:31Z" data-provider="read" finished-at="2022-02-09T16:35:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[admin   manager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:demoTestng.Dempp@20e2cbe0]" name="tc" duration-ms="12072" started-at="2022-02-09T16:35:47Z" data-provider="read" finished-at="2022-02-09T16:35:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[manager   admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:demoTestng.Dempp@20e2cbe0]" name="tc" duration-ms="12586" started-at="2022-02-09T16:35:59Z" data-provider="read" finished-at="2022-02-09T16:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ankur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[verma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ankur   verma]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc -->
+        <test-method status="PASS" signature="tc(java.lang.String, java.lang.String)[pri:0, instance:demoTestng.Dempp@20e2cbe0]" name="tc" duration-ms="12334" started-at="2022-02-09T16:36:12Z" data-provider="read" finished-at="2022-02-09T16:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ranbir]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[alia   ranbir]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc -->
+      </class> <!-- demoTestng.Dempp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
