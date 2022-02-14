@@ -29,5 +29,6 @@ public class CustomWait {
 		});
 		driver.findElement(By.name("textB")).sendKeys("Ankur");
 	}
+	//black day for india(pulvama)
 
 }
